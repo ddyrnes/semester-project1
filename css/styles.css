@@ -1,0 +1,30 @@
+:root {
+  --blue: #2f9df6;
+  --dark_blue: #257bc2;
+  --light_blue: #79bef7;
+
+  --silver: #d8d8d8;
+  --dark_silver: #a1a8b2;
+  --light_silver: #bdcade;
+
+  --green: #3fa652;
+
+  --black: #0e0e0e;
+  --white: #f6f3ef;
+  --light_gray: #eeeeee;
+
+  --light_black: rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: rubik, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+p {
+  font-family: space grotesk, "Times New Roman", Times, serif;
+}
