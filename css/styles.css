@@ -54,9 +54,11 @@ p {
 body {
   width: 100%;
   margin: 0px;
+  background-color: var(--white);
 }
 body > * {
   width: 320px;
+  margin: auto;
 }
 
 .cta {
