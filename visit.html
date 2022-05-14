@@ -90,52 +90,42 @@
       </section>
       <section>
         <div class="icon_h2"><h2>Book Your Guided Tour</h2></div>
-        <form action="">
-          <fieldset>
-            <legend>Full Name</legend>
-            <label for="fullname"></label>
-            <input type="text" id="fullname" name="fullname" />
-          </fieldset>
-          <fieldset>
-            <legend>Phone Number</legend>
-            <label for="phonenumber"></label>
-            <input type="text" id="phonenumber" name="phonenumber" />
-          </fieldset>
-          <fieldset>
-            <legend>Email</legend>
-            <label for="email"></label>
-            <input type="text" id="email" name="email" />
-          </fieldset>
-          <fieldset>
-            <legend>Choose Date</legend>
-            <label for="start"></label>
-            <input type="date" id="choosedate" name="choosedate" value="2022-05-14" min="2022-05-14" max="2022-06-14" />
-          </fieldset>
-          <fieldset>
-            <legend>Participants</legend>
-            <label for="participants"></label>
-            <input type="number" name="participants" id="participants" min="1" max="20" />
-          </fieldset>
-          <fieldset>
-            <legend>Choose A Time</legend>
-            <label for="time">10:00</label>
+        <form action="/visit.html" method="get">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" />
+
+          <label for="phonenumber">Phone Number</label>
+          <input type="text" id="phonenumber" name="phonenumber" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+
+          <label for="start">Choose Date</label>
+          <input type="date" id="choosedate" name="choosedate" value="2022-05-14" min="2022-05-14" max="2022-06-14" />
+
+          <label for="participants">Participants</label>
+          <input type="number" name="participants" id="participants" min="1" max="24" />
+
+          <legend>Choose A Time</legend>
+          <div class="radio">
             <input type="radio" id="1000" name="time" value="1000" />
-            <label for="time">11:00</label>
+            <label for="1000">10:00</label>
             <input type="radio" id="1100" name="time" value="1100" />
-            <label for="time">12:00</label>
+            <label for="1100">11:00</label>
             <input type="radio" id="1200" name="time" value="1200" />
-            <label for="time">13:00</label>
+            <label for="1200">12:00</label>
             <input type="radio" id="1300" name="time" value="1300" />
-            <label for="time">14:00</label>
+            <label for="1300">13:00</label>
             <input type="radio" id="1400" name="time" value="1400" />
-            <label for="time">15:00</label>
+            <label for="1400">14:00</label>
             <input type="radio" id="1500" name="time" value="1500" />
-          </fieldset>
-          <fieldset>
-            <legend>Additional Information</legend>
-            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-          </fieldset>
-          <input type="submit" value="submit" />
+            <label for="1500">15:00</label>
+          </div>
+
+          <label for="comments">Additional Information</label>
+          <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+          <input type="submit" value="submit" class="cta cta_submit" />
         </form>
       </section>
       <section>
