@@ -35,20 +35,20 @@ h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 800;
 }
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 p {
   font-family: space grotesk, "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 body {
@@ -69,7 +69,7 @@ body > * {
   height: 50px;
   background-color: var(--green);
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: rubik, "Times New Roman", Times, serif;
   text-decoration: none;
@@ -96,7 +96,7 @@ body > * {
   color: var(--white);
   position: relative;
   top: 40%;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   display: flex;
   flex-direction: column;
