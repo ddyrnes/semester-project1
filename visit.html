@@ -26,24 +26,26 @@
           <img src="/images/icons/opening_hours_icon.png" alt="clock icon" class="icon" />
           <h2>Opening Hours</h2>
         </div>
-        <ul>
-          <li>Monday:</li>
-          <li>Tuesday:</li>
-          <li>Wednesday:</li>
-          <li>Thursday:</li>
-          <li>Friday:</li>
-          <li>Saturday:</li>
-          <li>Sunday:</li>
-        </ul>
-        <ul>
-          <li>Closed</li>
-          <li>10:00 - 16:00</li>
-          <li>10:00 - 16:00</li>
-          <li>10:00 - 16:00</li>
-          <li>10:00 - 19:00</li>
-          <li>09:00 - 16:00</li>
-          <li>09:00 - 13:00</li>
-        </ul>
+        <div class="opening_hours">
+          <ul class="opening_hours_days">
+            <li>Monday:</li>
+            <li>Tuesday:</li>
+            <li>Wednesday:</li>
+            <li>Thursday:</li>
+            <li>Friday:</li>
+            <li>Saturday:</li>
+            <li>Sunday:</li>
+          </ul>
+          <ul>
+            <li>Closed</li>
+            <li>10:00 - 16:00</li>
+            <li>10:00 - 16:00</li>
+            <li>10:00 - 16:00</li>
+            <li>10:00 - 19:00</li>
+            <li>09:00 - 16:00</li>
+            <li>09:00 - 13:00</li>
+          </ul>
+        </div>
       </section>
       <section>
         <div class="icon_h2">
@@ -92,13 +94,13 @@
         <div class="icon_h2"><h2>Book Your Guided Tour</h2></div>
         <form action="/visit.html" method="get">
           <label for="fullname">Full Name</label>
-          <input type="text" id="fullname" name="fullname" />
+          <input placeholder="Your Name..." type="text" id="fullname" name="fullname" />
 
           <label for="phonenumber">Phone Number</label>
-          <input type="text" id="phonenumber" name="phonenumber" />
+          <input placeholder="Your Phone Number..." type="text" id="phonenumber" name="phonenumber" />
 
           <label for="email">Email</label>
-          <input type="text" id="email" name="email" />
+          <input placeholder="Your Email..." type="text" id="email" name="email" />
 
           <label for="start">Choose Date</label>
           <input type="date" id="choosedate" name="choosedate" value="2022-05-14" min="2022-05-14" max="2022-06-14" />
@@ -106,7 +108,7 @@
           <label for="participants">Participants</label>
           <input type="number" name="participants" id="participants" min="1" max="24" />
 
-          <legend>Choose A Time</legend>
+          <label for="radio">Choose A Time</label>
           <div class="radio">
             <input type="radio" id="1000" name="time" value="1000" />
             <label for="1000">10:00</label>
@@ -123,13 +125,13 @@
           </div>
 
           <label for="comments">Additional Information</label>
-          <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+          <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Write here..."></textarea>
 
-          <input type="submit" value="submit" class="cta cta_submit" />
+          <input type="submit" value="book tour" class="cta cta_submit" />
         </form>
       </section>
-      <section>
-        <h2>Location</h2>
+      <section class="location">
+        <div class="icon_h2"><h2>Location</h2></div>
         <div>
           <p>Address</p>
           <p>Dalaveien 17</p>
@@ -139,8 +141,6 @@
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.5943161650302!2d7.731941716557539!3d63.124763108125784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4613db2dd0fbb18b%3A0x37d7a40fad3c694!2sDalaveien%2017%2C%206511%20Kristiansund!5e0!3m2!1sen!2sno!4v1652184378366!5m2!1sen!2sno"
-            width="600"
-            height="450"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"

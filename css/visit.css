@@ -8,12 +8,28 @@ h1 {
 h2 {
   font-size: 1.25rem;
 }
+label {
+  font-weight: bold;
+}
 .icon_h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   background-color: var(--light_silver);
+}
+
+.opening_hours {
+  display: flex;
+}
+.opening_hours_days {
+  text-align: end;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 5px;
 }
 form {
   display: flex;
@@ -33,13 +49,17 @@ textarea {
   height: 44px;
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 20px;
   border-radius: 3px;
   border: 1px solid black;
   display: inline-block;
 }
 textarea {
   height: 160px;
+}
+::placeholder {
+  font-size: 0.75rem;
+  text-align: start;
+  padding: 10px;
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -81,4 +101,13 @@ input[type="radio"] {
 .cta_submit {
   border: none;
   cursor: pointer;
+}
+
+.location {
+  border: 4px solid var(--light_silver);
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
 }
