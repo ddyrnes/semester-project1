@@ -1,10 +1,14 @@
 img {
-  width: 200px;
+  width: 100%;
   height: 100%;
 }
 /*DELETE*/
 /*DELETE*/
 /*DELETE*/
+
+/* Colors */
+/* Colors */
+/* Colors */
 
 :root {
   --blue: #2f9df6;
@@ -24,14 +28,20 @@ img {
   --light_black: rgba(0, 0, 0, 0.5);
 }
 
+/* General Styles */
+/* General Styles */
+/* General Styles */
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a {
   font-family: rubik, "Times New Roman", Times, serif;
   text-transform: uppercase;
+  margin: 0;
 }
 
 h1 {
@@ -61,7 +71,25 @@ body > * {
   width: 320px;
   margin: auto;
 }
-
+a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 900;
+}
+.h1_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background-color: var(--light_silver);
+}
+.h2_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--light_silver);
+}
 .cta {
   display: flex;
   justify-content: center;
@@ -77,6 +105,14 @@ body > * {
   color: var(--white);
   border-radius: 4px;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Splash */
@@ -155,6 +191,7 @@ body > * {
 }
 .special_events_closes {
   background-color: var(--silver);
+  margin: 0;
 }
 
 /* Get Involvd */

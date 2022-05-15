@@ -11,13 +11,6 @@ h2 {
 label {
   font-weight: bold;
 }
-.icon_h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background-color: var(--light_silver);
-}
 
 .opening_hours {
   display: flex;
