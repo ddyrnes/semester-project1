@@ -128,6 +128,43 @@ section {
   flex-direction: column;
 }
 
+.icon {
+  width: 24px;
+}
+
+/* Logo */
+/* Logo */
+/* Logo */
+
+.logo_icon {
+  width: 50px;
+}
+.logo_icon_hamburger {
+  width: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bolder;
+}
+
+/* Nav */
+/* Nav */
+/* Nav */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.nav_desktop {
+  display: none;
+}
+
 /* Splash */
 /* Splash */
 /* Splash */
@@ -186,13 +223,17 @@ li {
 }
 .opening_hours {
   display: flex;
+  justify-content: center;
+  gap: 10;
 }
 .opening_hours_days {
   text-align: end;
 }
+
 .opening_hours > * {
   list-style: none;
   margin-top: 0;
+  padding: 0;
 }
 .visit_overview {
   margin: auto;
@@ -233,15 +274,25 @@ li {
 /* Get Involvd */
 /* Get Involvd */
 
+.get_involved h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
 .get_involved {
   background-color: var(--light_gray);
 }
 .get_involved h3 {
   background-color: var(--light_silver);
 }
-
 .to_the_top {
   background-color: var(--light_gray);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* Footer */
 /* Footer */
@@ -249,7 +300,33 @@ li {
 
 footer {
   background-color: var(--dark_silver);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
 }
 .footer_name {
   background-color: var(--light_blue);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_bottom {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+.footer_bottom_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_bottom_links a {
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: space grotesk;
+  text-transform: capitalize;
 }
