@@ -51,15 +51,19 @@ h1 {
 h2 {
   font-size: 2.25rem;
   font-weight: 800;
+  text-align: center;
 }
 h3 {
   font-size: 1.5rem;
   font-weight: 800;
+  text-align: center;
 }
 p,
 label {
   font-family: space grotesk, "Times New Roman", Times, serif;
   font-size: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -90,7 +94,8 @@ a {
   gap: 10px;
   background-color: var(--light_silver);
 }
-.cta {
+.cta,
+.cta_2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,6 +110,14 @@ a {
   color: var(--white);
   border-radius: 4px;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  margin: 30px auto;
+}
+.cta_2 {
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid var(--green);
+  width: 200px;
+  box-shadow: none;
 }
 main {
   display: flex;
@@ -159,8 +172,31 @@ section {
 /* Visit */
 /* Visit */
 
+.p_bold {
+  font-size: 1.125rem;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0;
+}
 .visit {
   background-color: var(--light_silver);
+}
+li {
+  margin: 5px;
+}
+.opening_hours {
+  display: flex;
+}
+.opening_hours_days {
+  text-align: end;
+}
+.opening_hours > * {
+  list-style: none;
+  margin-top: 0;
+}
+.visit_overview {
+  margin: auto;
+  font-weight: bolder;
 }
 
 /* Explore */
@@ -187,11 +223,10 @@ section {
 /* Special Events */
 /* Special Events */
 
-.special_events {
-}
 .special_events_closes {
   background-color: var(--silver);
   margin: 0;
+  text-align: center;
 }
 
 /* Get Involvd */

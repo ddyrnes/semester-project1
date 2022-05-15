@@ -12,18 +12,6 @@ label {
   font-weight: bold;
 }
 
-.opening_hours {
-  display: flex;
-}
-.opening_hours_days {
-  text-align: end;
-}
-ul {
-  list-style: none;
-}
-li {
-  margin: 5px;
-}
 form {
   display: flex;
   flex-direction: column;
