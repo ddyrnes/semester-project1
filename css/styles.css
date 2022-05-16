@@ -145,6 +145,28 @@ section {
 /* Logo */
 /* Logo */
 
+.fade_9 {
+  font-weight: 900;
+}
+.fade_8 {
+  font-weight: 800;
+}
+.fade_7 {
+  font-weight: 700;
+}
+.fade_6 {
+  font-weight: 600;
+}
+.fade_5 {
+  font-weight: 500;
+}
+.fade_4 {
+  font-weight: 400;
+}
+.fade_3 {
+  font-weight: 300;
+}
+
 .logo_icon {
   width: 50px;
   margin-left: 20px;
@@ -160,6 +182,10 @@ section {
   align-items: center;
   gap: 20px;
   font-weight: bolder;
+}
+.logo p,
+.footer_bottom p {
+  padding: 0px;
 }
 
 /* Nav */
