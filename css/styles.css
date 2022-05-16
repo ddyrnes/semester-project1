@@ -192,6 +192,19 @@ section {
 /* Nav */
 /* Nav */
 
+/*
+input[type="checkbox"] {
+  display: none;
+}
+*/
+
+#nav_mobile {
+  display: none;
+}
+input[type="checkbox"]:checked ~ #nav_mobile {
+  display: block;
+}
+
 nav {
   display: flex;
   align-items: center;

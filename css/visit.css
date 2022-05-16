@@ -88,6 +88,9 @@ input[type="radio"] {
 .location {
   border: 4px solid var(--light_silver);
 }
+.location p {
+  padding: 4px;
+}
 
 iframe {
   width: 100%;
