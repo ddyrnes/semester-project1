@@ -192,25 +192,39 @@ section {
 /* Nav */
 /* Nav */
 
-/*
-input[type="checkbox"] {
+input {
   display: none;
 }
-*/
-
 #nav_mobile {
   display: none;
 }
+label[for="hamburger_menu"] {
+  cursor: pointer;
+}
 input[type="checkbox"]:checked ~ #nav_mobile {
   display: block;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  left: 0%;
+  background-color: var(--light_silver);
 }
-
+#nav_mobile > * {
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  box-shadow: 0px 0px 2px 0px var(--light_black);
+}
 nav {
+  position: fixed;
+  width: 100%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 60px;
   background-color: var(--silver);
+  z-index: 1;
 }
 .nav_desktop {
   display: none;

@@ -77,7 +77,7 @@ input[type="radio"] {
 }
 .radio input[type="radio"]:checked + label {
   border: 1px solid var(--black);
-  background-color: var(--light_blue);
+  display: none;
 }
 
 .cta_submit {
