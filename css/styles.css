@@ -53,12 +53,13 @@ h2 {
   font-size: 2.25rem;
   font-weight: 800;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
 }
 h3 {
   font-size: 1.5rem;
   font-weight: 800;
   text-align: center;
+  padding: 30px;
 }
 p,
 label,
@@ -72,7 +73,8 @@ p {
 }
 body {
   width: 100%;
-  margin: 0px;
+  max-width: 1440px;
+  margin: auto;
   background-color: var(--white);
 }
 /*
@@ -137,6 +139,7 @@ main {
 section {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .icon {
@@ -198,7 +201,24 @@ input {
   display: none;
 }
 #nav_mobile {
-  display: none;
+  position: absolute;
+  transform: translateY(calc(-100% - 60px));
+  display: block;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  left: 0%;
+  background-color: var(--light_silver);
+  transition: transform 0.5s ease;
+}
+input[type="checkbox"]:checked ~ #nav_mobile {
+  transform: translateY(0%);
+}
+/* Old Checkbox Hack
+
+#nav_mobile {
+  position: absolute;
+  transform: translateX(100%);
 }
 label[for="hamburger_menu"] {
   cursor: pointer;
@@ -210,12 +230,15 @@ input[type="checkbox"]:checked ~ #nav_mobile {
   width: 100%;
   left: 0%;
   background-color: var(--light_silver);
-}
+  transform: translateX(0%);
+  transition: transform 0.5s ease-in-out;
+} */
+
 #nav_mobile > * {
   display: block;
   text-align: center;
-  line-height: 60px;
-  box-shadow: 0px 0px 2px 0px var(--light_black);
+  line-height: 80px;
+  box-shadow: 0px 0px 1px 0px var(--light_black);
 }
 #nav_mobile > *:hover {
   background-color: var(--light_blue);
@@ -223,6 +246,7 @@ input[type="checkbox"]:checked ~ #nav_mobile {
 nav {
   position: fixed;
   width: 100%;
+  max-width: 1440px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -244,10 +268,10 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
@@ -261,8 +285,10 @@ nav {
   gap: 40px;
   align-content: center;
   flex-direction: column;
-  margin-bottom: 10%;
   width: 260px;
+}
+.splash_text p {
+  padding: 0;
 }
 .splash_bottom_text {
   color: var(--white);
@@ -287,6 +313,10 @@ nav {
   background-color: var(--black);
   color: var(--white);
 }
+.explore_together img,
+p {
+  width: 80%;
+}
 
 /* Visit */
 /* Visit */
@@ -300,6 +330,7 @@ nav {
 }
 .visit {
   background-color: var(--light_silver);
+  padding-bottom: 40px;
 }
 .visit_opening_hours {
   padding-top: 20px;
@@ -331,12 +362,25 @@ li {
 /* Explore */
 /* Explore */
 /* Explore */
-
+.explore {
+  flex-direction: column;
+}
 .explore div {
   border: 7px solid var(--silver);
   margin: 20px;
+  flex-basis: 0;
 }
-
+.explore_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.explore_flex div {
+  flex-direction: column;
+  flex-basis: 0;
+  min-width: 300px;
+}
 /* Exhibition Spaces */
 /* Exhibition Spaces */
 /* Exhibition Spaces */
