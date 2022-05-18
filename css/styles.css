@@ -366,9 +366,9 @@ li {
   flex-direction: column;
 }
 .explore div {
-  border: 7px solid var(--silver);
-  margin: 20px;
-  flex-basis: 0;
+  border: 0.2rem solid var(--silver);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  max-width: fit-content;
 }
 .explore_flex {
   display: flex;
@@ -380,6 +380,7 @@ li {
   flex-direction: column;
   flex-basis: 0;
   min-width: 300px;
+  margin: 20px;
 }
 /* Exhibition Spaces */
 /* Exhibition Spaces */
