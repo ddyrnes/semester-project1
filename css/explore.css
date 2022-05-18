@@ -1,7 +1,6 @@
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
 }
 section {
   border: 8px solid var(--light_silver);
