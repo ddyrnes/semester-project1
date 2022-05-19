@@ -1,13 +1,21 @@
 main {
-  gap: 20px;
   align-items: flex-start;
 }
 section {
   border: 8px solid var(--light_silver);
+  padding-bottom: 40px;
+}
+.explore_container {
+  flex-direction: column;
+  gap: 40px;
 }
 h2 {
   font-size: 1.5rem;
   text-align: center;
+  padding-top: 20px;
+}
+p {
+  padding: 10px 40px;
 }
 img {
   width: 100%;
