@@ -8,8 +8,22 @@ h2 {
 label {
   font-weight: bold;
 }
+img {
+  width: 100%;
+  object-fit: cover;
+}
+p {
+  padding: 16px 40px;
+}
 .book_tour {
   border: 4px solid var(--light_silver);
+}
+section {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.exhibition_spaces_container {
+  flex-direction: column;
 }
 form {
   display: flex;
