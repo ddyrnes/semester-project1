@@ -66,7 +66,6 @@ p {
 }
 body {
   width: 100%;
-  max-width: 600px;
   background-color: var(--white);
   margin: auto;
 }
@@ -205,46 +204,25 @@ section {
   top: 60px;
   width: 100%;
   left: 0%;
-  background-color: var(--light_silver);
+  background-color: var(--silver);
   transition: transform 0.3s ease;
   box-shadow: 0px 0px 4px var(--black);
 }
 input[type="checkbox"]:checked ~ #nav_mobile {
   transform: translateY(0%);
 }
-/* Old Checkbox Hack
-
-#nav_mobile {
-  position: absolute;
-  transform: translateX(100%);
-}
-label[for="hamburger_menu"] {
-  cursor: pointer;
-}
-input[type="checkbox"]:checked ~ #nav_mobile {
-  display: block;
-  position: absolute;
-  top: 60px;
-  width: 100%;
-  left: 0%;
-  background-color: var(--light_silver);
-  transform: translateX(0%);
-  transition: transform 0.5s ease-in-out;
-} */
-
 #nav_mobile > * {
   display: block;
   text-align: center;
   line-height: 80px;
-  box-shadow: 0px 0px 1px 0px var(--light_black);
+  box-shadow: 0px 0px 1.5px 0px var(--light_black);
 }
 #nav_mobile > *:hover {
-  background-color: var(--light_blue);
+  background-color: var(--light_silver);
 }
 nav {
   position: fixed;
   width: 100%;
-  max-width: 600px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -255,6 +233,20 @@ nav {
 }
 .nav_desktop {
   display: none;
+  gap: 0px;
+}
+.nav_desktop a {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+}
+.nav_desktop a:hover {
+  background-color: var(--light_silver);
+}
+.nav_current_page {
+  background-color: var(--light_blue);
 }
 
 /* Splash */
@@ -321,6 +313,11 @@ nav {
   gap: 20px;
   padding: 30px 0px;
   background-color: var(--light_silver);
+  width: 100%;
+}
+.visit_flex_container {
+  flex-direction: column;
+  gap: 20px;
 }
 
 .p_bold {
@@ -377,6 +374,7 @@ li {
 }
 .explore_flex div {
   border: 6px solid var(--silver);
+  justify-content: space-between;
 }
 .explore_flex {
   display: flex;
@@ -426,7 +424,7 @@ li {
 .exhibiton_spaces_card {
   flex-direction: column;
   max-width: 280px;
-  height: 460px;
+  height: 470px;
   justify-content: flex-start;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
 }
@@ -435,7 +433,8 @@ li {
 }
 .exhibition_cta {
   margin: 10px;
-  height: 40px;
+  height: 44px;
+  width: 220px;
 }
 /* Special Events */
 /* Special Events */
@@ -446,11 +445,14 @@ li {
   gap: 40px;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
 }
+.special_events_container {
+  flex-direction: column;
+}
 .special_events_flex {
   flex-direction: column;
 }
 .special_events_flex p {
-  padding: 16px 40px;
+  padding: 24px 40px;
 }
 .special_events_flex h3 {
   padding-top: 24px;
@@ -473,10 +475,15 @@ li {
   background-color: var(--light_gray);
   padding: 40px 0px;
   gap: 40px;
+  margin-top: 2px;
+}
+.get_involved_top {
+  width: 100%;
 }
 .get_involved_flex {
   flex-direction: column;
   width: 100%;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
 }
 .get_involved img {
   max-height: 400px;

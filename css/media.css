@@ -1,0 +1,86 @@
+@media only screen and (min-width: 999px) {
+  .nav_desktop {
+    display: flex;
+  }
+  .nav_mobile {
+    display: none;
+  }
+
+  .splash_text {
+    gap: 40px;
+  }
+  .explore_together {
+    width: 100%;
+  }
+  .explore_together img {
+    max-width: 600px;
+  }
+  .explore_together_text {
+    max-width: 600px;
+  }
+  .visit {
+    width: 100%;
+    background-color: var(--light_gray);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  }
+  .visit img {
+    width: 300px;
+    border-radius: 4px;
+  }
+  .visit_flex_container {
+    flex-direction: row;
+    gap: 100px;
+    width: 100%;
+    background-color: var(--light_silver);
+  }
+
+  .explore_flex {
+    gap: 80px;
+  }
+  .exhibition_spaces,
+  .get_involved {
+    padding: 80px 0px;
+  }
+  .exhibition_spaces_flex {
+    gap: 40px;
+  }
+
+  .special_events_container {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .special_events_flex {
+    height: 800px;
+    justify-content: flex-start;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  }
+  .special_events {
+    max-width: 1200px;
+  }
+  .get_involved {
+    width: 100%;
+    gap: 60px;
+  }
+  .get_involved_flex {
+    width: 500px;
+    height: 850px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  .get_involved_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .special_events img,
+  .get_involved img {
+    height: 300px;
+  }
+  footer {
+    gap: 40px;
+  }
+}
