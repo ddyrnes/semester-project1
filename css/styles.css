@@ -305,6 +305,9 @@ nav {
 .explore_together p {
   padding: 20px 30px;
 }
+.explore_together_text {
+  max-width: 600px;
+}
 
 /* Visit */
 /* Visit */

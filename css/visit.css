@@ -112,6 +112,7 @@ input[type="radio"] {
 }
 .location div {
   width: 100%;
+  padding: 6px;
 }
 
 iframe {

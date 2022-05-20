@@ -7,7 +7,13 @@
   }
 
   .splash_text {
-    gap: 40px;
+    gap: 60px;
+  }
+  .splash_text h1 {
+    font-size: 3.5rem;
+  }
+  .splash_text p {
+    font-size: 1.25rem;
   }
   .explore_together {
     width: 100%;
@@ -15,9 +21,7 @@
   .explore_together img {
     max-width: 600px;
   }
-  .explore_together_text {
-    max-width: 600px;
-  }
+
   .visit {
     width: 100%;
     background-color: var(--light_gray);
