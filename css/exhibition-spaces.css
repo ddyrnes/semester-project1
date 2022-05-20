@@ -2,6 +2,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+section {
+  align-items: flex-start;
+}
 .h1_exhibition_spaces {
   max-width: 100%;
 }
