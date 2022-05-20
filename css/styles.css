@@ -11,7 +11,7 @@
   --dark_silver: #a1a8b2;
   --light_silver: #bdcade;
 
-  --green: #3fa652;
+  --green: #227c32;
 
   --black: #0e0e0e;
   --white: #f6f3ef;
@@ -255,7 +255,7 @@ nav {
 /* Splash */
 
 .splash {
-  background-image: url(/images/splash1.jpg);
+  background-image: url(/images/landing_page/splash1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
