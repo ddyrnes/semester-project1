@@ -16,6 +16,7 @@ img {
 p {
   padding: 16px 40px;
 }
+
 .book_tour,
 .location {
   background-color: var(--light_gray);
@@ -23,6 +24,9 @@ p {
 section {
   width: 100%;
   padding-bottom: 20px;
+}
+.admission {
+  align-items: flex-start;
 }
 .exhibition_spaces_container {
   flex-direction: column;
