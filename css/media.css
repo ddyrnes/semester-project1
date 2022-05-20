@@ -105,7 +105,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 40px 0px;
+    max-width: 1600px;
   }
+
   .exhibition_spaces_container section {
     width: 500px;
     height: 800px;
