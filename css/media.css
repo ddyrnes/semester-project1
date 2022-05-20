@@ -85,7 +85,13 @@
   footer {
     gap: 40px;
   }
-
+  .footer_flex {
+    flex-direction: row;
+    gap: 80px;
+  }
+  .footer_bottom {
+    align-items: center;
+  }
   /* Explore.html */
   /* Explore.html */
   /* Explore.html */
