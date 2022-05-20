@@ -10,6 +10,7 @@ label {
 }
 img {
   width: 100%;
+  max-width: 1200px;
   object-fit: cover;
 }
 p {

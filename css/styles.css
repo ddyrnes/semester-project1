@@ -87,6 +87,7 @@ a {
 }
 .h1_background {
   width: 100%;
+  max-width: 1200px;
   align-items: center;
   height: 90px;
   background-color: var(--light_silver);

@@ -2,6 +2,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+.h1_exhibition_spaces {
+  max-width: 100%;
+}
 h2 {
   font-size: 1.5rem;
   width: 100%;
