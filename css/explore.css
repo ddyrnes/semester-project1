@@ -1,5 +1,5 @@
 main {
-  align-items: flex-start;
+  padding-bottom: 40px;
 }
 section {
   border: 8px solid var(--light_silver);

@@ -33,7 +33,9 @@
     width: 100%;
     background-color: var(--light_silver);
   }
-
+  .h1_background {
+    margin-top: 20px;
+  }
   .explore_flex {
     gap: 80px;
   }
@@ -82,5 +84,31 @@
   }
   footer {
     gap: 40px;
+  }
+
+  /* Explore.html */
+  /* Explore.html */
+  /* Explore.html */
+
+  .explore_container {
+    width: 880px;
+    border: 16px solid var(--light_silver);
+    gap: 0px;
+    margin-top: 20px;
+  }
+
+  /* Exhibition-spaces.html */
+  /* Exhibition-spaces.html */
+  /* Exhibition-spaces.html */
+
+  .exhibition_spaces_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+  }
+  .exhibition_spaces_container section {
+    width: 500px;
+    height: 800px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
   }
 }
