@@ -119,4 +119,44 @@
     height: 800px;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
   }
+
+  /* Visit.html */
+  /* Visit.html */
+  /* Visit.html */
+
+  .visit_desktop,
+  .visit_desktop2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 0px;
+    max-width: 1200px;
+  }
+  .book_tour,
+  .location {
+    max-width: 1200px;
+  }
+  .location {
+    gap: 20px;
+  }
+  .visit_desktop section {
+    width: 100%;
+    margin: 0;
+    align-items: flex-start;
+    border: 4px solid var(--light_silver);
+  }
+  .visit_desktop2 section {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    align-items: flex-start;
+    border: 4px solid var(--light_silver);
+  }
+  .form_flex {
+    flex-direction: row;
+    gap: 80px;
+  }
+  textarea {
+    width: 100%;
+  }
 }

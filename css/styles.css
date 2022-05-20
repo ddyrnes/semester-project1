@@ -353,6 +353,17 @@ li {
   font-weight: bolder;
   text-align: center;
 }
+.form_flex,
+.form_flex1,
+.form_flex2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.form_flex2,
+.chooseatime {
+  margin-top: 24px;
+}
 
 /* Explore */
 /* Explore */
