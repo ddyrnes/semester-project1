@@ -36,6 +36,10 @@
     gap: 100px;
     width: 100%;
     background-color: var(--light_silver);
+    align-items: flex-start;
+  }
+  .visit_flex_container div {
+    margin-top: 20px;
   }
   .h1_background {
     margin-top: 20px;
