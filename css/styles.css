@@ -411,6 +411,7 @@ li {
   flex-direction: column;
   padding: 40px 0px;
   gap: 20px;
+  width: 100%;
 }
 .exhibition_spaces h2 {
   padding: 0px 20px;
@@ -433,6 +434,7 @@ li {
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 20px;
+  max-width: 1200px;
 }
 .exhibiton_spaces_card {
   flex-direction: column;
