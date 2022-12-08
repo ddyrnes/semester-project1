@@ -35,5 +35,4 @@ This is where you can leave your social links for people to contact you, such as
 
 [My Email] dev.dyrnes@gmail.com
 
-[My LinkedIn page]([www.linkedin.com](https://www.linkedin.com/in/daniel-dyrnes-3a478a253/))
-
+[My LinkedIn page]([www.linkedin.com/in/daniel-dyrnes-3a478a253/]
